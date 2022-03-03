@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+#main-header {
+}
+.top_header {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(231, 231, 231);
+  border-bottom: 1px solid rgb(201, 201, 201);
+}
+.row {
+  background: #fff !important;
+}
+
+.logo img {
+  width: 270px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.heading-title p {
+  font-size: 1.1rem;
+}
+.header-text {
+  text-align: right;
+}
+.header-text h1 {
+  font-size: 1.2rem;
+  margin-top: 45px;
+  background: #d9534f;
+  padding: 8px 7px;
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+  display: inline-block;
+}
+
+/*Banner Section*/
+
+#banner-main {
+  background-image: url(image/background-black-coffee-close-up-coffee.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0px;
+  z-index: -1;
+  background-attachment: fixed;
+  position: relative;
+}
+#banner-main::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(204, 201, 201);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.3;
+}
+.banner-text {
+  text-align: center;
+  padding: 10px 0px;
+  background: #c4c4c4;
+}
+
+h2 {
+  font-size: 1.9rem;
+}
+
+h4 {
+  color: #242424;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+/*Paragraph section*/
+
+.p-text h3 {
+  font-size: 1.7rem;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.p-text p {
+  font-size: 1.2rem;
+}
+
+/*Contact form*/
+
+.contact-form h3 {
+  font-weight: bold;
+}
+.list-side {
+  background-color: #d9d9d9;
+}
+.list-side li {
+  margin-bottom: 10px;
+}
+
+/*Footer section*/
+
+.footer_text {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.footer-section {
+  background-color: #ddd !important;
+}

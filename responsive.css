@@ -1,0 +1,32 @@
+@media (max-width: 702px) {
+  .banner-text h2 {
+    font-size: 1.7rem;
+  }
+}
+@media (max-width: 632px) {
+  .banner-text h2 {
+    font-size: 1.5rem;
+  }
+  .bg-primary {
+    background-color: red !important;
+    font-size: 15px !important;
+  }
+  .p-text h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 578px) {
+  .header-text h1 {
+    display: none;
+  }
+}
+@media (max-width: 557px) {
+  .banner-text h2 {
+    font-size: 1.4rem;
+  }
+  .p-text h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+}
